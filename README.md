@@ -48,3 +48,42 @@ It allows users to chat with AI, upload PDFs, and ask questions from documents.
 - Select AI model
 - Adjust temperature
 - Control response length
+
+## 🏗️ Architecture
+
+User
+|
+Streamlit UI
+|
+PersonaAI Backend
+|
+
+| | |
+Groq LangChain RAG
+LLM Memory PDF
+|
+Database
+
+
+
+## 📂 Project Structure
+
+AstraAI - Multimodal AI Assistant/
+
+├── app.py
+
+├── config/
+
+├── core/
+
+├── database/
+
+├── auth/
+
+├── utils/
+
+├── uploads/
+
+├── data/
+
+└── requirements.txt
